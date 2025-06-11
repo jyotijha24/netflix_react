@@ -7,7 +7,7 @@ function App()
   return (
     <>
     <Routes>
-      <Route path="/netflix_react/" element={<Home/>}/>
+      <Route path="/" element={<Home/>}/>
       <Route path="/Bollywood" element={<Bollywood/>}/>
       <Route path="/MoviesDeatils/:slug" element={<MoviesDeatils/>}/>
     </Routes>
